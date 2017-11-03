@@ -1,0 +1,6 @@
+[
+  {
+    "name": "protector",
+    "description": "If an enemy unit is adjacent to one or more swordsmen that you control, when that enemy unit attacks, a swordsman must be the target in that attack. Any melee attack received is decreased by 1/2/3."
+  }
+]
