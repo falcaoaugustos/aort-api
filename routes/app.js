@@ -36,4 +36,4 @@ app.get('/chars/1', (req, res) => {
   });
 });
 
-app.listen(3000, _ => console.log('Listening on the port 3000...'));
+module.exports = app;
