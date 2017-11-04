@@ -1,7 +1,6 @@
 [
   {
-    "id": 1,
-    "class": "swordsman",
+    "class": "Swordsman",
     "base-points": 10,
     "stats": {
       "health-points": 20,
@@ -13,8 +12,127 @@
     "moves": [0],
     "types": [0],
     "forms": {
-      "concept-art": "http://url/api/v1/forms/concept-art/1.png",
-      "head": "http://url/api/v1/forms/head/1.png"
+      "concept-art": "http://url/api/v1/forms/concept-art/swordsman.png",
+      "head": "http://url/api/v1/forms/head/swordsman.png"
+    }
+  },
+  {
+    "class": "Gunner",
+    "base-points": 10,
+    "stats": {
+      "health-points": 10,
+      "movement-points": 1,
+      "damage": 4,
+      "area-of-effect": 1,
+      "range": 5
+    },
+    "moves": [1],
+    "types": [3],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/gunner.png",
+      "head": "http://url/api/v1/forms/head/gunner.png"
+    }
+  },
+  {
+    "class": "Caster",
+    "base-points": 10,
+    "stats": {
+      "health-points": 10,
+      "movement-points": 1,
+      "damage": 3,
+      "area-of-effect": 2,
+      "range": 3
+    },
+    "moves": [2],
+    "types": [2],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/caster.png",
+      "head": "http://url/api/v1/forms/head/caster.png"
+    }
+  },
+  {
+    "class": "Mechanic",
+    "base-points": 10,
+    "stats": {
+      "health-points": 15,
+      "movement-points": 2,
+      "damage": 4,
+      "area-of-effect": 1,
+      "range": 1
+    },
+    "moves": [3],
+    "types": [4],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/mechanic.png",
+      "head": "http://url/api/v1/forms/head/mechanic.png"
+    }
+  },
+  {
+    "class": "Gladiator",
+    "base-points": 11,
+    "stats": {
+      "health-points": 20,
+      "movement-points": 2,
+      "damage": 4,
+      "area-of-effect": 1,
+      "range": 1
+    },
+    "moves": [4],
+    "types": [1],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/gladiator.png",
+      "head": "http://url/api/v1/forms/head/gladiator.png"
+    }
+  },
+  {
+    "class": "Rogue",
+    "base-points": 11,
+    "stats": {
+      "health-points": 15,
+      "movement-points": 3,
+      "damage": 4,
+      "area-of-effect": 1,
+      "range": 1
+    },
+    "moves": [5],
+    "types": [1],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/rogue.png",
+      "head": "http://url/api/v1/forms/head/rogue.png"
+    }
+  },
+  {
+    "class": "Glacial Sorcerer",
+    "base-points": 11,
+    "stats": {
+      "health-points": 10,
+      "movement-points": 1,
+      "damage": 3,
+      "area-of-effect": 2,
+      "range": 3
+    },
+    "moves": [6],
+    "types": [2],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/glacial-sorcerer.png",
+      "head": "http://url/api/v1/forms/head/glacial-sorcerer.png"
+    }
+  },
+  {
+    "class": "Ninja",
+    "base-points": 11,
+    "stats": {
+      "health-points": 20,
+      "movement-points": 3,
+      "damage": 3,
+      "area-of-effect": 1,
+      "range": 1
+    },
+    "moves": [7],
+    "types": [4],
+    "forms": {
+      "concept-art": "http://url/api/v1/forms/concept-art/ninja.png",
+      "head": "http://url/api/v1/forms/head/ninja.png"
     }
   }
 ]
