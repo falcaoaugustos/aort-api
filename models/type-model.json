@@ -1,6 +1,22 @@
 [
   {
-    "name": "fighter",
-    "description": "A fighter have a lot of health points or can cause a lot of damage to a enemy"
+    "name": "Tanker",
+    "description": "A tanker have a lot of health points and can ignore some weak enemy units."
+  },
+  {
+    "name": "Fighter",
+    "description": "A fighter have a great attack and can cause a lot of damage to enemy units."
+  },
+  {
+    "name": "Mages",
+    "description": "A mage can destroy his enemies with spells and mystic abilities."
+  },
+  {
+    "name": "Shooter",
+    "description": "A shooter have a great attack and range, but a shooter have few health points."
+  },
+  {
+    "name": "Support",
+    "description": "A support can block enemies and make allies stronger."
   }
 ]
