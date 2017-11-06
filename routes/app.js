@@ -1,8 +1,8 @@
 const chars = require('./char-route');
 const moves = require('./move-route');
 const types = require('./type-route');
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 app.get('/', (req, res) => {
   res.send('Welcome to AoRT API!');

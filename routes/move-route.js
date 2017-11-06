@@ -1,6 +1,6 @@
 const moves = require('../models/move-model');
-var express = require('express');
-var route = express.Router();
+const express = require('express');
+const route = express.Router();
 
 route.get('/', (req, res) => {
   res.json(moves);

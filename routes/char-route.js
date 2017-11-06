@@ -1,31 +1,27 @@
 const chars = require('../models/char-model');
 const moves = require('../models/move-model');
 const types = require('../models/type-model');
-var express = require('express');
-var route = express.Router();
+const express = require('express');
+const route = express.Router();
 
 route.get('/', (req, res) => {
-  var objects = chars.slice();
-  var newObjects = objects.map((value) => {
-    return deserialize(value);
-  }); 
+  const objects = chars.slice();
+  const newObjects = objects.map(value => deserialize(value));
   res.json(newObjects);
 });
 
 route.get('/:id', (req, res) => {
-  var object = chars[req.params.id];
-  var newObject = deserialize(object);
+  const object = chars[req.params.id];
+  const newObject = deserialize(object);
   res.json(newObject);
 });
 
-function deserialize(object) {
-  var newObject = Object.assign({}, object);
-  newObject.moves = object.moves.map((value) => {
-    return moves[value];
-  });
-  newObject.types = object.types.map( (value) => { 
-    return types[value];
-  });
+const deserialize = object => {
+  const newObject = {
+    ...object,
+    moves: moves.map(value => moves[value]),
+    types: types.map(value => types[value])
+  };
   return newObject;
 }
 

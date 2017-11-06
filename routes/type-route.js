@@ -1,6 +1,6 @@
 const types = require('../models/type-model');
-var express = require('express');
-var route = express.Router();
+const express = require('express');
+const route = express.Router();
 
 route.get('/', (req, res) => {
   res.json(types);
