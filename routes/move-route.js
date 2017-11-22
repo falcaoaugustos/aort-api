@@ -1,13 +1,13 @@
 const moves = require('../models/move-model');
 const express = require('express');
-const route = express.Router();
+const router = express.Router();
 
-route.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.json(moves);
 });
 
-route.get('/:id', (req, res) => {
+router.get('/:id', (req, res) => {
   res.json(moves[req.params.id]);
 });
 
-module.exports = route;
+module.exports = router;
